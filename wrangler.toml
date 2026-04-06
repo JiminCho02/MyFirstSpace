@@ -1,5 +1,5 @@
-# Cloudflare Pages configuration
+name = "myfirstspace"
 pages_build_output_dir = "out"
 
-[build]
-command = "npm run build"
+# Note: Cloudflare Pages may still require the Build Command to be set in the Dashboard
+# if it doesn't automatically pick up 'npm run build' from your package.json.
