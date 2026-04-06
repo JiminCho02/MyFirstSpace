@@ -10,7 +10,7 @@ const products = [
     category: "Chassis",
     price: "$1,450",
     specs: "Active Damping | Track Tuned",
-    image: "https://images.unsplash.com/photo-1621932953446-75f53b0267fe?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.tunershop.shop/media/catalog/product/f/a/fahrwerkstechnik-st-st-gewindefahrwerk-st-xta_0.jpg?width=240&height=300&store=en&image-type=small_image",
   },
   {
     id: 2,
@@ -18,15 +18,15 @@ const products = [
     category: "Wheels",
     price: "$2,800",
     specs: "Lightweight | 19x8.0J | High-Strength",
-    image: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.hyundai.com/content/dam/hyundai/au/en/owning/accessories/i30n-sedan-/800x480/HYUNDAI_ACCESSORIES_i30_N_Sedan_19_inch_NAMYANG_Forged_Alloy_Wheels_800x480.jpg",
   },
   {
     id: 3,
-    name: "Carbon Aero Splitter",
+    name: "Carbon Aero spoiler",
     category: "Exterior",
     price: "$890",
     specs: "Real Carbon Fiber | Downforce+",
-    image: "https://images.unsplash.com/photo-1611016186353-9af58c69a533?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.hyundai.com/content/dam/hyundai/ww/en/images/find-a-car/pip/n/ioniq6-n-25my/n-performance-parts/wide/design-wide-04-wing-splitter-mo.jpg",
   },
 ];
 
