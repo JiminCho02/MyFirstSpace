@@ -1,3 +1,0 @@
-name = "myfirstspace"
-pages_build_output_dir = "out"
-build_command = "npm run build"
