@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쿠팡! (Coupang) - 클론</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Area -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-area">
+                    <a href="#"><img src="https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png" alt="쿠팡 로고" class="logo"></a>
+                    <button class="category-btn">
+                        <span class="hamburger"></span>
+                        카테고리
+                    </button>
+                </div>
+                <div class="search-area">
+                    <div class="search-input-wrapper">
+                        <select name="category" class="search-select">
+                            <option value="all">전체</option>
+                        </select>
+                        <input type="text" placeholder="찾고 싶은 상품을 검색해보세요!" class="search-input">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="user-menu">
+                    <a href="#" class="menu-item"><i class="icon-user"></i><span>로그인</span></a>
+                    <a href="#" class="menu-item"><i class="icon-mypage"></i><span>마이쿠팡</span></a>
+                    <a href="#" class="menu-item cart-btn"><i class="icon-cart"></i><span>장바구니</span></a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link rocket">로켓배송</a></li>
+                    <li><a href="#" class="nav-link fresh">로켓프레시</a></li>
+                    <li><a href="#" class="nav-link gold">골드박스</a></li>
+                    <li><a href="#" class="nav-link">정기배송</a></li>
+                    <li><a href="#" class="nav-link">이벤트/쿠폰</a></li>
+                    <li><a href="#" class="nav-link">기획전</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Main Slider Banner -->
+        <section class="main-banner">
+            <div class="banner-slider">
+                <div class="slide active" style="background-image: url('https://img1a.coupangcdn.com/image/static/pdp/banner/2023/04/13/1681363654541_5.jpg');"></div>
+                <div class="slide" style="background-image: url('https://img1a.coupangcdn.com/image/static/pdp/banner/2023/04/13/1681363654541_5.jpg'); filter: hue-rotate(90deg);"></div>
+                <div class="slide" style="background-image: url('https://img1a.coupangcdn.com/image/static/pdp/banner/2023/04/13/1681363654541_5.jpg'); filter: hue-rotate(180deg);"></div>
+                <button class="slider-prev">&lt;</button>
+                <button class="slider-next">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Product Grid Area -->
+        <section class="product-section container">
+            <h2 class="section-title">오늘의 발견</h2>
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/200x200?text=Product+1" alt="상품 이미지">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">쿠팡 브랜드 - 탐사수 2L, 12개입</p>
+                        <div class="price-info">
+                            <span class="discount">15%</span>
+                            <span class="price">7,400원</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="rocket-badge">🚀 로켓배송</span>
+                            <span class="delivery-date">내일(월) 도착 보장</span>
+                        </div>
+                        <div class="rating-info">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(42,105)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat cards for layout testing -->
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/200x200?text=Product+2" alt="상품 이미지">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">프레시 - 유기농 무항생제 계란 30구</p>
+                        <div class="price-info">
+                            <span class="discount">5%</span>
+                            <span class="price">12,500원</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="fresh-badge">❄️ 로켓프레시</span>
+                            <span class="delivery-date">내일 새벽 7시 전 도착</span>
+                        </div>
+                        <div class="rating-info">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(15,320)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/200x200?text=Product+3" alt="상품 이미지">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Apple 2024 맥북 에어 13 M3, 실버, 256GB</p>
+                        <div class="price-info">
+                            <span class="price">1,450,000원</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="rocket-badge">🚀 로켓배송</span>
+                            <span class="delivery-date">내일(월) 도착 보장</span>
+                        </div>
+                        <div class="rating-info">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(892)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/200x200?text=Product+4" alt="상품 이미지">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">신라면 120g x 20개입 (한박스)</p>
+                        <div class="price-info">
+                            <span class="discount">10%</span>
+                            <span class="price">15,800원</span>
+                        </div>
+                        <div class="delivery-info">
+                            <span class="rocket-badge">🚀 로켓배송</span>
+                            <span class="delivery-date">내일(월) 도착 보장</span>
+                        </div>
+                        <div class="rating-info">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(12,401)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Coupang Clone Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
